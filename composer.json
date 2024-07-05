@@ -16,7 +16,7 @@
         }
     ],
      "require": {
-        "php": "^8.1"
+        "programmer9wc/ws-custom-form": "dev-main"
     },
     "autoload": {
         "psr-4": {
