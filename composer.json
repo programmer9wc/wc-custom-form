@@ -1,14 +1,23 @@
 {
     "name": "programmer9wc/wc-custom-form",
-    "license": "MIT",
     "description" : "Wc Custom Form for Laravel",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Programmer9",
             "email": "programmer9@webbycrown.com"
         }
     ],
-    "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/programmer9wc/wc-custom-form"
+        }
+    ],
+     "require": {
+        "php": "^8.1"
+    },
     "autoload": {
         "psr-4": {
             "Programmer9WC\\WcCustomForm\\": "src/"
@@ -22,6 +31,5 @@
             "aliases": {}
         }
     },
-    "minimum-stability": "dev",
-     "prefer-stable": true
+    "minimum-stability": "dev"
 }
